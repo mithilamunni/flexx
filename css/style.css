@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    
+ width: 100%;
+ max-width: 1400px;
+ margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding: 40px 0;
+}
+.title h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+.title p{
+    font-size: 20px;
+}
+
+
+.flex{
+display: flex;
+gap: 0px;
+flex-wrap: wrap;
+
+
+}
+
+.flex .column {
+    width: 25%;
+padding: 15px
+}
+
+
+
+.imageBox{
+    background-color: #e7cfaa;
+   background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    min-height: 400px;
+    border-radius: 15px;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 0px 40px 0 #26262614;
+}
+.imgbox_1{
+    background-image: url(../images/s-l1200.webp);
+
+    
+}
+.imgbox_2{
+    background-image: url(../images/swef.jpg);
+}
+.imgbox_3{
+    background-image: url(../images/LuxLampshades-MobileHero-01.webp);
+}
+.imgbox_4{
+    background-image: url(../images/htyhgrdy5h.jpg);
+
+}
+.imgbox_5{
+    background-image: url(../images/hryt5trh.jpg);
+
+    
+}
+.imgbox_6{
+    background-image: url(../images/hrtggr.jpg);
+
+    
+}
+
+.imgbox_7{
+    background-image: url(../images/fsedrfeytgrfvvhy.jpg);
+
+    
+}
+
+.imgbox_8{
+    background-image: url(../images/download.jpg);
+
+    
+}
+   
+
+.controlSystemSection{ 
+    padding: 100px 0;
+}
+.column_1_3{
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+
+.column_2_3{
+    width: 66.66%;
+    padding: 15px;
+   
+}
+
+
+.column_2_2{
+    width: 100%;
+    padding: 15px;
+}
+
+
+.column_1_2{
+    width: 50%;
+    padding: 15px;
+}
+
+.gallery_01{
+    background-color: #e7cfaa;
+    background-blend-mode: multiply;
+     color: rgb(255, 255, 255);
+     padding: 30px;
+     min-height: 600px;
+     height: 100%;
+     border-radius: 15px;
+     background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     box-shadow: 0px 0px 40px 0 #26262614;
+
+     background-image: url(../images/hhh1.jpg);
+}
+
+.gallery_02{
+    background-color: #e7cfaa;
+    background-blend-mode: multiply;
+     color: rgb(255, 255, 255);
+     padding: 30px;
+     min-height: 300px;
+    height: 100%;
+     border-radius: 15px;
+     background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     box-shadow: 0px 0px 40px 0 #26262614;
+
+     background-image: url(../images/htyhgrdy5h.jpg);
+}
+
+.gallery_03{
+    background-color: #e7cfaa;
+    background-blend-mode: multiply;
+     color: rgb(255, 255, 255);
+     padding: 30px;
+     min-height: 300px;
+    ;
+     border-radius: 15px;
+     background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     box-shadow: 0px 0px 40px 0 #26262614;
+
+     background-image: url(../images/htyhgrdy5h.jpg);
+}
+
+
+.gallery_04{
+    background-color: #e7cfaa;
+    background-blend-mode: multiply;
+     color: rgb(255, 255, 255);
+     padding: 30px;
+     min-height: 300px;
+     
+     border-radius: 15px;
+     background-size: cover;  
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     box-shadow: 0px 0px 40px 0 #26262614;
+
+     background-image: url(../images/th\ \(1\).jpg);
+}
